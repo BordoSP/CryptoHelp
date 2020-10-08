@@ -69,6 +69,9 @@ function changeStyleForSelectorButtons() {
 }
 
 function calculateByPrice() {
+    if(priceInput.value === '' || amountInput.value === '') {
+        return false;
+    }
     let enterPrice = parseFloat(priceInput.value);
     let amount = parseFloat(amountInput.value);
     let totalTaxes = 0;
