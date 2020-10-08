@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    min-width: 650px;
+    color: white;
+}
+
+body h1{
+    margin-top: 120px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+
+.wrapper {
+    height: 300px;
+    width: 600px;
+    background-color: #282828;
+    margin: 20px auto 0 auto;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 6px 6px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 24px 0px rgba(0,0,0,0.75);
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.inputWrapper h3 {
+    margin-right: 20px;
+}
+
+.input {
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #f8a540;
+    background-color: transparent;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comsaSelector {
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    margin-top: 30px;
+}
+
+
+.selectorBtn {
+    height: 25px;
+    width: 80px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.selectedBtn {
+    background-color: #f8a540;
+    border-color: #f8a540;
+    color:  #282828;
+}
+
+.enterBlock {
+    align-self: flex-start;
+}
+
+.closeBlock {
+    align-self: flex-end;
+}
+
+.calculateWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.calculateWrapper button {
+    height: 35px;
+    width: 130px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: transform .1s ease-in-out;
+}
+
+
+.byPrice {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+    width: 230px;
+}
+
+.calculateBtn:active {
+    transform: scale(1.1);
+}
+
+.calculateBtn:hover {
+    background-color: white;
+    color:  #282828;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, .4);
+}
+
+
